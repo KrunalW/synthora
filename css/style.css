@@ -1,0 +1,45 @@
+/* Css created by Krunal Wankehde 22/08/2025 */
+
+/* variables */
+:root{
+
+    /* Color Palette */
+    --electric-violet : #8C52FF; /* Primary color */
+    --primary-hover : #732ED9; /* Primary hover color */
+    --synthora-blue : #236BFE; /* Secondary color */
+    --secondary-hover : #1A56D6; /* Secondary hover color */
+    --white: #FFFFFF; /* Pure white */
+    --ghost-white :#F8F9FF; /* white text, Page backgrounds */
+    --light-gray : #E6E8F0; /* Card backgrounds, borders */
+    --jet-black : #1B1B1B; /* for text and heading */
+    --charcoal-gray : #1B1B1B; /* for Secondary text */
+    --synthora-ribbon : linear-gradient(135deg, #236BFE, #8C52FF); /* for gradient */
+
+    /* Typography */
+    /* Font Size */
+    --heading-1 : 43px;
+    --heading-2 : 28px;
+    --heading-3 : 24px;
+    --heading-4 : 20px;
+    --heading-5 : 18px;
+    --heading-6 : 16px;
+    --para-text : 14px;
+    --caption : 18px;
+
+    /* Font weight */
+    --heading-1-bold : 700;
+    --heading-2-bold : 700;
+    --heading-3-bold : 600;
+    --heading-4-bold : 600;
+    --heading-5-bold : 500;
+    --heading-6-bold : 500;
+    --para-text-bold : 400;
+    --caption-bold: 400;
+}
+
+body{background: var(--white);}
+main{
+    background: linear-gradient(305.31deg, rgba(35, 107, 254, 0.2) 9.06%, rgba(140, 82, 255, 0.2) 90.94%);
+    border-radius: 20px;
+    margin: 16px;
+}
