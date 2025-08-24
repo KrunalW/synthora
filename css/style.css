@@ -4,16 +4,16 @@
 :root{
 
     /* Color Palette */
-    --electric-violet : #8C52FF; /* Primary color */
+    --primary-color : #8C52FF; /* Primary color electric-violet */
     --primary-hover : #732ED9; /* Primary hover color */
-    --synthora-blue : #236BFE; /* Secondary color */
+    --secondary-color : #236BFE; /* Secondary color synthora-blue */
     --secondary-hover : #1A56D6; /* Secondary hover color */
     --white: #FFFFFF; /* Pure white */
     --ghost-white :#F8F9FF; /* white text, Page backgrounds */
     --light-gray : #E6E8F0; /* Card backgrounds, borders */
     --jet-black : #1B1B1B; /* for text and heading */
     --charcoal-gray : #1B1B1B; /* for Secondary text */
-    --synthora-ribbon : linear-gradient(135deg, #236BFE, #8C52FF); /* for gradient */
+    --synthora-ribbon-linear1 : linear-gradient(135deg, #236BFE, #8C52FF); /* for gradient synthora-ribbon */
 
     /* Typography */
     /* Font Size */
@@ -42,4 +42,12 @@ main{
     background: linear-gradient(305.31deg, rgba(35, 107, 254, 0.2) 9.06%, rgba(140, 82, 255, 0.2) 90.94%);
     border-radius: 20px;
     margin: 16px;
+}
+.btn-primary, .btn:first-child:active{background: var(--primary-color); border-color: var(--primary-hover);}
+.btn-primary:hover, .btn-primary:active{background: var(--primary-hover); border-color: var(--primary-color);}
+.login-logo{height: 100%; align-content: center; text-align: center;}
+.login-form{text-align: center;}
+@media (min-width: 992px) {
+    .login-logo img{width: 330px;}
+    .login-form{width: 60%;}
 }
